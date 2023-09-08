@@ -1,8 +1,8 @@
 {
-  "name": "@antfu/eslint-config-vue",
-  "version": "0.41.0",
+  "name": "@ruler/eslint-config-vue",
+  "version": "0.1.1",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "Ruler1020 (https://github.com/Ruler1020730/)",
   "license": "MIT",
   "keywords": [
     "eslint-config"
@@ -15,8 +15,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config-basic": "workspace:*",
-    "@antfu/eslint-config-ts": "workspace:*",
+    "@ruler/eslint-config-basic": "workspace:*",
+    "@ruler/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.17.0",
     "local-pkg": "^0.4.3"
   },

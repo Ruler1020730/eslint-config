@@ -1,0 +1,6 @@
+{
+  "extends": "@ruler",
+  "plugins": [
+    "ruler"
+  ]
+}

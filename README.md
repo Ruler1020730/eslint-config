@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/@antfu/eslint-config?color=444&label=)](https://npmjs.com/package/@antfu/eslint-config) [![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
 
-- Single quotes, no semi
+- Double quotes, always semi
 - Auto fix for formatting (aimed to be used standalone **without** Prettier)
 - Designed to work with TypeScript, Vue out-of-box
 - Lint also for json, yaml, markdown
@@ -81,13 +81,13 @@ Type aware rules are enabled when a `tsconfig.eslint.json` is found in the proje
 
 ```js
 // .eslintrc.js
-const process = require('node:process')
+const process = require("node:process");
 
-process.env.ESLINT_TSCONFIG = 'tsconfig.json'
+process.env.ESLINT_TSCONFIG = "tsconfig.json";
 
 module.exports = {
-  extends: '@antfu'
-}
+  extends: "@antfu"
+};
 ```
 
 ### Lint Staged
@@ -131,7 +131,7 @@ If you enjoy this code style, and would like to mention it in your project, here
 
 This config does NOT lint CSS. I personally use [UnoCSS](https://github.com/unocss/unocss) so I don't write CSS. If you still prefer CSS, you can use [stylelint](https://stylelint.io/) for CSS linting.
 
-### I prefer XXX...
+### I prefer XXX
 
 Sure, you can override the rules in your `.eslintrc` file.
 

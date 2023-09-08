@@ -1,8 +1,8 @@
 {
-  "name": "@antfu/eslint-config",
-  "version": "0.41.0",
-  "description": "Anthony's ESLint config",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "name": "@ruler/eslint-config",
+  "version": "0.1.1",
+  "description": "Ruler1020's ESLint config",
+  "author": "Ruler1020 (https://github.com/Ruler1020730/)",
   "license": "MIT",
   "homepage": "https://github.com/antfu/eslint-config",
   "keywords": [
@@ -16,7 +16,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config-vue": "workspace:*",
+    "@ruler/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
